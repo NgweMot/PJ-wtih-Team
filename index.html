@@ -16,11 +16,11 @@
     <div id="app">
       <div class="container mx-auto">
         <section class="">
-          <header class="text-center lg:pt-10 xl:pt-5 xl:pb-5 lg:mt-3 relative z-50 md:px-5 md:pt-3">
+          <header class="text-center xl:pb-5 relative z-50 md:px-5 md:pt-3">
             <div
-              class="flex-col md:flex md:flex-col lg:flex lg:flex-row items-center lg:justify-center sm:flex-wrap  max-w-7xl flex lg:flex-nowrap md:pb-10"
+              class="flex flex-col md:grid md:grid-rows-3 lg:flex lg:flex-row items-center lg:justify-center lg:flex-nowrap md:pb-10"
             >
-              <div class="md:mt-10 md:justify-items-start md:pb-10 pt-10 pb-10">
+              <div class="md:row-start-2 md:row-span-2 pt-10 pb-10 inline-flex">
                 <svg
                   aria-hidden="true"
                   viewBox="0 0 183 48"
@@ -45,9 +45,9 @@
                 </svg>
               </div>
               <div
-                class="order-first pt-5 md:order-first lg:order-none xl:order-none flex flex-auto whitespace-nowrap md:pt-5"
+                class="order-first pt-5 md:order-first md:row-end-2 md:row-span-3 md:mx-auto lg:order-none xl:order-none flex flex-auto whitespace-nowrap hover:border hover:border-dashed hover:border-red-600 md:hover:border md:hover:border-dashed md:hover:border-red-500 md:hover:m-0"
               >
-                <div class="flex mx-auto items-center justify-center">
+                <div class="flex mx-auto items-center justify-center md:ps-16 md:ms-32">
                   <p class="text-blue-700 p-2 font-mono text-sm">
                     04-06 of April, 2022
                   </p>
@@ -69,10 +69,10 @@
                   </p>
                 </div>
               </div>
-              <div class="md:justify-self-end hidden md:block lg:block xl:block">
+              <div class="hidden md:block lg:block xl:block md:row-end-4 md:row-start-2">
                 <a
                   href=""
-                  class="bg-blue-700 sm:text-sm sm:p-3 sm:rounded-lg flex-auto flex-nowarp lg:rounded-xl p-5 text-white "
+                  class="bg-blue-700 md:rounded-xl flex-auto flex-nowarp lg:rounded-xl p-5 md:p-3 lg:p-4 xl:p-4 text-white "
                 >
                   Get Your Tickets
                 </a>
@@ -83,7 +83,7 @@
             <div class="relative">
               <div class="absolute">
                 <img
-                  class="xl:w-screen md:-translate-x-[50%] md:-translate-y-[30%] lg:-translate-y-[15%] xl:-translate-x-[55%] xl:-translate-y-[30%] -translate-x-[60%]"
+                  class="xl:w-screen md:-translate-x-[50%] md:-translate-y-[30%] lg:-translate-y-[15%] xl:-translate-x-[55%] xl:-translate-y-[30%] -translate-x-[60%] -translate-y-[35%]"
                   src="./img/hero-bg.jpg"
                   alt=""
                 />
@@ -91,7 +91,7 @@
               <div class="relative">
                 <div class="mx-auto md:w-[600px] lg:w-[800px] ps-6">
                   <h1
-                    class="font-Roboto text-[50px] tracking-tight leading-[60px] pb-8 font-bold text-blue-700 md:pb-8 md:tracking-tight md:leading-[80px] md:pt-14 lg:pb-8"
+                    class="font-Roboto text-[50px] tracking-tight md:text-[75px] leading-[60px] pb-8 font-bold text-blue-700 md:pb-8 md:tracking-tight md:leading-[80px] md:pt-14 lg:pb-8 lg:text-[90px] xl:text-[90px] xl:tracking-tight lg:leading-tight xl:leading-tight"
                   >
                     A design conference for the dark side.
                   </h1>
@@ -155,6 +155,7 @@
         </section>
       </div>
     </div>
+    
     <script type="module" src="/main.js"></script>
   </body>
 </html>
