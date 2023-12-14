@@ -4,15 +4,781 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
+ 
+    <title>Vite App</title>
+     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,300;0,9..40,400;1,9..40,300;1,9..40,400&family=Montserrat:wght@100&family=Rethink+Sans&family=Roboto:wght@300;400&display=swap"
       rel="stylesheet"
     />
-    <title>Vite App</title>
+    
   </head>
   <body>
+    
     <div id="app">
       <div class=" ">
+        
+        <section id="speakers" class=" py-20 lg:px-10 sm:px-5 px-14 container lg:mx-[60px] md:mx-[90px] mx-[50px]">
+          <!-- for clip-path design in person -->
+          <svg aria-hidden="true" width="0" height="0">
+            <defs>
+              <clipPath id="bg-person" clipPathUnits="objectBoundingBox">
+                <path
+                  d="M0,0 h0.729 v0.129 h0.121 l-0.016,0.032 C0.815,0.198,0.843,0.243,0.885,0.243 H1 v0.757 H0.271 v-0.086 l-0.121,0.057 v-0.214 c0,-0.032,-0.026,-0.057,-0.057,-0.057 H0 V0"
+                ></path>
+              </clipPath>
+              <clipPath id="bg-person2" clipPathUnits="objectBoundingBox">
+                <path
+                  d="M1,1 H0.271 v-0.129 H0.15 l0.016,-0.032 C0.185,0.802,0.157,0.757,0.115,0.757 H0 V0 h0.729 v0.086 l0.121,-0.057 v0.214 c0,0.032,0.026,0.057,0.057,0.057 h0.093 v0.7"
+                ></path>
+              </clipPath>
+              <clipPath id="bg-person3" clipPathUnits="objectBoundingBox">
+                <path
+                  d="M1,0 H0.271 v0.129 H0.15 l0.016,0.032 C0.185,0.198,0.157,0.243,0.115,0.243 H0 v0.757 h0.729 v-0.086 l0.121,0.057 v-0.214 c0,-0.032,0.026,-0.057,0.057,-0.057 h0.093 V0"
+                ></path>
+              </clipPath>
+            </defs>
+          </svg>
+
+          <!-- text block -->
+          <div class="grid lg:grid-cols-3 md:grid-cols-1 relative ">
+            <div class="col-span-2 mb-24 sm:mb-16">
+              <h2
+                class="speakers-title font-display text-4xl font-semibold font-Rethink text-blue-600"
+              >
+                Speakers
+              </h2>
+              <p
+                class="leading-10 font-display text-blue-900 mt-4 font-sans font-thin text-2xl font-Monno"
+              >
+                Learn from the experts on the cutting-edge of deception at the
+                most sinister companies.
+              </p>
+            </div>
+            <div class=""></div>
+          </div>
+
+          <!-- person first row in openingDay -->
+          <div class="grid grid-cols-4 md:grid-cols-1 relative ">
+            <div class="md:grid md:grid-cols-3  sm:grid-flow-col sm:grid-cols-4 justify-items-center whitespace-nowrap sm:mx-auto sm:max-w-2xl sm:px-0 gap-x-8 gap-y-4 sm:text-center ">
+              <div class="flex sm:col-span-1 mb-10 ">
+                <div class="relative pe-10  sm:hidden md:hidden  ">
+                  <div class="absolute border-e-2 h-60 top-2 ">
+                  </div>
+                  <svg
+                  aria-hidden="true"
+                  viewBox="0 0 6 6"
+                  class="absolute left-[-0.5px] top-[0.5625rem] hidden h-1.5 w-1.5 overflow-visible lg:block fill-blue-600 stroke-blue-600"
+                >
+                  <path
+                    d="M3 0L6 3L3 6L0 3Z"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+                </div>
+                <div class="opening-day">
+                  <button class="text-blue-600 text-sm font-mono mb-2">
+                    Opening Day
+                  </button>
+                  <p class="text-blue-900 text-2xl font-bold">April 4</p>
+                </div>
+              </div>
+
+              <div class="flex mb-10 sm:col-span-2 sm:px-2">
+                <div class="relative pe-10 sm:hidden md:hidden">
+                  <svg
+                    aria-hidden="true"
+                    viewBox="0 0 6 6"
+                    class="absolute left-[-2px] top-[0.5625rem] hidden h-1.5 w-1.5 overflow-visible lg:block fill-slate-200 stroke-slate-400"
+                  >
+                    <path
+                      d="M3 0L6 3L3 6L0 3Z"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="speacker-workshop">
+                  <button class="text-slate-500 text-sm sm:col-span-2 text-start font-mono mb-2">
+                    Speakers & Workshops
+                  </button>
+                  <p class="text-blue-900 text-2xl font-bold">April 5</p>
+                </div>
+              </div>
+
+              <div class="flex sm:col-span-1 ">
+                <div class="relative pe-10 sm:hidden md:hidden">
+                  <svg
+                    aria-hidden="true"
+                    viewBox="0 0 6 6"
+                    class="absolute left-[-2px] top-[0.5625rem] hidden h-1.5 w-1.5 overflow-visible lg:block fill-slate-200 stroke-slate-400"
+                  >
+                    <path
+                      d="M3 0L6 3L3 6L0 3Z"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="interviews">
+                  <button class="text-slate-500 text-sm font-mono mb-2">
+                    Interviews
+                  </button>
+                  <p class="text-blue-900 text-2xl font-bold">April 6</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-span-3 mb-16 sm:mb-10">
+              <div class="grid grid-cols-3 gap-8 sm:grid-cols-1">
+                <div class="person-1 ">
+                  <div class="group relative h-[15.5rem]  transform rounded-4xl overflow-hidden">
+                    <div
+                      class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                    ></div>
+                    <div
+                      class="absolute inset-0 bg-indigo-50"
+                      style="clip-path: url(#bg-person)"
+                    >
+                      <img
+                        class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                        src="./img/Steven McHail.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+    
+                  <h3 class="text-xl font-bold mt-8 text-slate-900">
+                    Steven McHail
+                  </h3>
+                  <p class="mt-1 text-base text-slate-500">
+                    Designer at Globex Corporation
+                  </p>
+                </div>
+    
+                <div class="person-2">
+                  <div
+                    class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                  >
+                    <div
+                      class="absolute bottom-6 left-0 right-4 top-0 rounded-3xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                    ></div>
+                    <div
+                      class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                      style="clip-path: url(#bg-person2)"
+                    >
+                      <img
+                        class="rounded-3xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                        src="./img/jaquelin-isch.webp"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <h3 class="text-xl font-bold mt-8 text-slate-900">
+                    Jaquelin Isch
+                  </h3>
+                  <p class="mt-1 text-base text-slate-500">UX Design at InGen</p>
+                </div>
+    
+                <div class="person-3">
+                  <div
+                    class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                  >
+                    <div
+                      class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                    ></div>
+                    <div
+                      class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                      style="clip-path: url(#bg-person3)"
+                    >
+                      <img
+                        class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                        src="./img/Dianne Guilianelli.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+    
+                  <h3 class="text-xl font-bold mt-8 text-slate-900">
+                    Dianne Guilianelli
+                  </h3>
+                  <p class="mt-1 text-base text-slate-500">
+                    General Manager at Initech
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- second row person in openingDay -->
+          <div class="grid grid-cols-4 md:grid-cols-1">
+            <div class=""></div>
+
+           <div class="col-span-3">
+            <div class="grid grid-cols-3 gap-8 sm:grid-cols-1">
+              <div class="person-4 ">
+                <div class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden">
+                  <div
+                    class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                  ></div>
+                  <div
+                    class="absolute inset-0 bg-indigo-50"
+                    style="clip-path: url(#bg-person)"
+                  >
+                    <img
+                      class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                      src="./img/Ronni Cantadore.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+  
+                <h3 class="text-xl font-bold mt-8 text-slate-900">
+                  Ronni Cantadore
+                </h3>
+                <p class="mt-1 text-base text-slate-500">
+                  Design Engineer at Weyland-Yutani
+                </p>
+              </div>
+  
+              <div class="person-2">
+                <div
+                  class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                >
+                  <div
+                    class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                  ></div>
+                  <div
+                    class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                    style="clip-path: url(#bg-person2)"
+                  >
+                    <img
+                      class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                      src="./img/Erhart Cockrin.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <h3 class="text-xl font-bold mt-8 text-slate-900">
+                  Erhart Cockrin
+                </h3>
+                <p class="mt-1 text-base text-slate-500">Product Lead at Cyberdyne Systems</p>
+              </div>
+  
+              <div class="person-3">
+                <div
+                  class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                >
+                  <div
+                    class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                  ></div>
+                  <div
+                    class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                    style="clip-path: url(#bg-person3)"
+                  >
+                    <img
+                      class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                      src="./img/Parker Johnson.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+  
+                <h3 class="text-xl font-bold mt-8 text-slate-900">
+                  Parker Johnson
+                </h3>
+                <p class="mt-1 text-base text-slate-500">
+                  UI Designer at MomCorp
+                </p>
+              </div>
+            </div>
+           </div>
+          </div>
+
+          <!-- speakers & workshops -->
+
+          <div class="hidden">
+            <!-- person first row in speakers and workshops-->
+          <div class="grid grid-cols-4 md:grid-cols-1 ">
+            <div class="md:grid md:grid-cols-3 ">
+              <div class="flex  mb-10 ">
+                <div class="relative pe-10 sm:hidden ">
+                  <div class="absolute border-e-2 h-60 top-2 ">
+                  </div>
+                  <svg
+                  aria-hidden="true"
+                  viewBox="0 0 6 6"
+                  class="absolute left-[-0.5px] top-[0.5625rem] hidden h-1.5 w-1.5 overflow-visible lg:block fill-blue-600 stroke-blue-600"
+                >
+                  <path
+                    d="M3 0L6 3L3 6L0 3Z"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+                </div>
+                <div class="opening-day">
+                  <button class="text-blue-600 text-sm font-mono mb-2">
+                    Opening Day
+                  </button>
+                  <p class="text-blue-900 text-2xl font-bold">April 4</p>
+                </div>
+              </div>
+
+              <div class="flex mb-10 ">
+                <div class="relative pe-10 sm:hidden">
+                  <svg
+                    aria-hidden="true"
+                    viewBox="0 0 6 6"
+                    class="absolute left-[-2px] top-[0.5625rem] hidden h-1.5 w-1.5 overflow-visible lg:block fill-slate-200 stroke-slate-400"
+                  >
+                    <path
+                      d="M3 0L6 3L3 6L0 3Z"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="speacker-workshop">
+                  <button class="text-slate-500 text-sm sm:col-span-2 text-start font-mono mb-2">
+                    Speakers & Workshops
+                  </button>
+                  <p class="text-blue-900 text-2xl font-bold">April 5</p>
+                </div>
+              </div>
+
+              <div class="flex  ">
+                <div class="relative pe-10 sm:hidden">
+                  <svg
+                    aria-hidden="true"
+                    viewBox="0 0 6 6"
+                    class="absolute left-[-2px] top-[0.5625rem] hidden h-1.5 w-1.5 overflow-visible lg:block fill-slate-200 stroke-slate-400"
+                  >
+                    <path
+                      d="M3 0L6 3L3 6L0 3Z"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="interviews">
+                  <button class="text-slate-500 text-sm font-mono mb-2">
+                    Interviews
+                  </button>
+                  <p class="text-blue-900 text-2xl font-bold">April 6</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-span-3 mb-16 sm:mb-10">
+              <div class="grid grid-cols-3 gap-8 sm:grid-cols-1">
+                <div class="person-1 ">
+                  <div class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden">
+                    <div
+                      class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                    ></div>
+                    <div
+                      class="absolute inset-0 bg-indigo-50"
+                      style="clip-path: url(#bg-person)"
+                    >
+                      <img
+                        class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                        src="./img/damaris-kimura.webp"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+    
+                  <h3 class="text-xl font-bold mt-8 text-slate-900">
+                    Damaris Kimura
+                  </h3>
+                  <p class="mt-1 text-base text-slate-500">
+                    Senior Engineer at OCP
+                  </p>
+                </div>
+    
+                <div class="person-2">
+                  <div
+                    class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                  >
+                    <div
+                      class="absolute bottom-6 left-0 right-4 top-0 rounded-3xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                    ></div>
+                    <div
+                      class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                      style="clip-path: url(#bg-person2)"
+                    >
+                      <img
+                        class="rounded-3xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                        src="./img/ibrahim-frasch.webp"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <h3 class="text-xl font-bold mt-8 text-slate-900">
+                    Ibrahim Frasch
+                  </h3>
+                  <p class="mt-1 text-base text-slate-500">Programmer at Umbrella Corp</p>
+                </div>
+    
+                <div class="person-3">
+                  <div
+                    class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                  >
+                    <div
+                      class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                    ></div>
+                    <div
+                      class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                      style="clip-path: url(#bg-person3)"
+                    >
+                      <img
+                        class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                        src="./img/cathlene-burrage.webp"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+    
+                  <h3 class="text-xl font-bold mt-8 text-slate-900">
+                    Cathlene Burrage
+                  </h3>
+                  <p class="mt-1 text-base text-slate-500">
+                    Frontend Developer at Buy n Large
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- second row person -->
+          <div class="grid grid-cols-4 md:grid-cols-1">
+            <div class=""></div>
+
+           <div class="col-span-3">
+            <div class="grid grid-cols-3 gap-8 sm:grid-cols-1">
+              <div class="person-4 ">
+                <div class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden">
+                  <div
+                    class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                  ></div>
+                  <div
+                    class="absolute inset-0 bg-indigo-50"
+                    style="clip-path: url(#bg-person)"
+                  >
+                    <img
+                      class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                      src="./img/rinaldo-beynon.webp"
+                      alt=""
+                    />
+                  </div>
+                </div>
+  
+                <h3 class="text-xl font-bold mt-8 text-slate-900">
+                  Rinaldo Beynon
+                </h3>
+                <p class="mt-1 text-base text-slate-500">
+                  Data Scientist at Rekall
+                </p>
+              </div>
+  
+              <div class="person-2">
+                <div
+                  class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                >
+                  <div
+                    class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                  ></div>
+                  <div
+                    class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                    style="clip-path: url(#bg-person2)"
+                  >
+                    <img
+                      class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                      src="./img/waylon-hyden.webp"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <h3 class="text-xl font-bold mt-8 text-slate-900">
+                  Waylon Hyden
+                </h3>
+                <p class="mt-1 text-base text-slate-500">DevOps at RDA Corporation</p>
+              </div>
+  
+              <div class="person-3">
+                <div
+                  class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                >
+                  <div
+                    class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                  ></div>
+                  <div
+                    class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                    style="clip-path: url(#bg-person3)"
+                  >
+                    <img
+                      class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                      src="./img/giordano-sagucio.webp"
+                      alt=""
+                    />
+                  </div>
+                </div>
+  
+                <h3 class="text-xl font-bold mt-8 text-slate-900">
+                  Giordano Sagucio
+                </h3>
+                <p class="mt-1 text-base text-slate-500">
+                  Game Developer at Soylent Corp
+                </p>
+              </div>
+            </div>
+           </div>
+          </div>
+          </div>
+
+          <!-- Interviews -->
+          <div class="hidden">
+            <!-- person first row in speakers and workshops-->
+          <div class="grid grid-cols-4 md:grid-cols-1 ">
+            <div class="md:grid md:grid-cols-3 ">
+              <div class="flex  mb-10 ">
+                <div class="relative pe-10 sm:hidden ">
+                  <div class="absolute border-e-2 h-60 top-2 ">
+                  </div>
+                  <svg
+                  aria-hidden="true"
+                  viewBox="0 0 6 6"
+                  class="absolute left-[-0.5px] top-[0.5625rem] hidden h-1.5 w-1.5 overflow-visible lg:block fill-blue-600 stroke-blue-600"
+                >
+                  <path
+                    d="M3 0L6 3L3 6L0 3Z"
+                    stroke-width="2"
+                    stroke-linejoin="round"
+                  ></path>
+                </svg>
+                </div>
+                <div class="opening-day">
+                  <button class="text-blue-600 text-sm font-mono mb-2">
+                    Opening Day
+                  </button>
+                  <p class="text-blue-900 text-2xl font-bold">April 4</p>
+                </div>
+              </div>
+
+              <div class="flex mb-10 ">
+                <div class="relative pe-10 sm:hidden">
+                  <svg
+                    aria-hidden="true"
+                    viewBox="0 0 6 6"
+                    class="absolute left-[-2px] top-[0.5625rem] hidden h-1.5 w-1.5 overflow-visible lg:block fill-slate-200 stroke-slate-400"
+                  >
+                    <path
+                      d="M3 0L6 3L3 6L0 3Z"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="speacker-workshop">
+                  <button class="text-slate-500 text-sm sm:col-span-2 text-start font-mono mb-2">
+                    Speakers & Workshops
+                  </button>
+                  <p class="text-blue-900 text-2xl font-bold">April 5</p>
+                </div>
+              </div>
+
+              <div class="flex  ">
+                <div class="relative pe-10 sm:hidden">
+                  <svg
+                    aria-hidden="true"
+                    viewBox="0 0 6 6"
+                    class="absolute left-[-2px] top-[0.5625rem] hidden h-1.5 w-1.5 overflow-visible lg:block fill-slate-200 stroke-slate-400"
+                  >
+                    <path
+                      d="M3 0L6 3L3 6L0 3Z"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="interviews">
+                  <button class="text-slate-500 text-sm font-mono mb-2">
+                    Interviews
+                  </button>
+                  <p class="text-blue-900 text-2xl font-bold">April 6</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-span-3 mb-16 sm:mb-10">
+              <div class="grid grid-cols-3 gap-8 sm:grid-cols-1">
+                <div class="person-1 ">
+                  <div class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden">
+                    <div
+                      class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                    ></div>
+                    <div
+                      class="absolute inset-0 bg-indigo-50"
+                      style="clip-path: url(#bg-person)"
+                    >
+                      <img
+                        class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                        src="./img/andrew-greene.webp"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+    
+                  <h3 class="text-xl font-bold mt-8 text-slate-900">
+                    Andrew Greene
+                  </h3>
+                  <p class="mt-1 text-base text-slate-500">
+                    Frontend Developer at Ultratech
+                  </p>
+                </div>
+    
+                <div class="person-2">
+                  <div
+                    class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                  >
+                    <div
+                      class="absolute bottom-6 left-0 right-4 top-0 rounded-3xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                    ></div>
+                    <div
+                      class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                      style="clip-path: url(#bg-person2)"
+                    >
+                      <img
+                        class="rounded-3xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                        src="./img/heather-terry.webp"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <h3 class="text-xl font-bold mt-8 text-slate-900">
+                    Heather Terry
+                  </h3>
+                  <p class="mt-1 text-base text-slate-500">Backend Developer at Xanatos Enterprises</p>
+                </div>
+    
+                <div class="person-3">
+                  <div
+                    class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                  >
+                    <div
+                      class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                    ></div>
+                    <div
+                      class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                      style="clip-path: url(#bg-person3)"
+                    >
+                      <img
+                        class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                        src="./img/piers-wilkins.webp"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+    
+                  <h3 class="text-xl font-bold mt-8 text-slate-900">
+                    Piers Wilkins
+                  </h3>
+                  <p class="mt-1 text-base text-slate-500">
+                    Full stack Developer at BiffCo
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- second row person -->
+          <div class="grid grid-cols-4 md:grid-cols-1">
+            <div class=""></div>
+
+           <div class="col-span-3">
+            <div class="grid grid-cols-3 gap-8 sm:grid-cols-1">
+              <div class="person-4 ">
+                <div class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden">
+                  <div
+                    class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                  ></div>
+                  <div
+                    class="absolute inset-0 bg-indigo-50"
+                    style="clip-path: url(#bg-person)"
+                  >
+                    <img
+                      class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                      src="./img/gordon-sanderson.webp"
+                      alt=""
+                    />
+                  </div>
+                </div>
+  
+                <h3 class="text-xl font-bold mt-8 text-slate-900">
+                  Gordon Sanderson
+                </h3>
+                <p class="mt-1 text-base text-slate-500">
+                  Mobile Developer at Cobra Industries                </p>
+              </div>
+  
+              <div class="person-2">
+                <div
+                  class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                >
+                  <div
+                    class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                  ></div>
+                  <div
+                    class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                    style="clip-path: url(#bg-person2)"
+                  >
+                    <img
+                      class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                      src="./img/kimberly-parsons.webp"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <h3 class="text-xl font-bold mt-8 text-slate-900">
+                  Kimberly Parsons
+                </h3>
+                <p class="mt-1 text-base text-slate-500">Game Developer at Tyrell Corporation</p>
+              </div>
+  
+              <div class="person-3">
+                <div
+                  class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                >
+                  <div
+                    class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                  ></div>
+                  <div
+                    class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                    style="clip-path: url(#bg-person3)"
+                  >
+                    <img
+                      class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                      src="./img/richard-astley.webp"
+                      alt=""
+                    />
+                  </div>
+                </div>
+  
+                <h3 class="text-xl font-bold mt-8 text-slate-900">
+                  Richard Astley
+                </h3>
+                <p class="mt-1 text-base text-slate-500">
+                  CEO at Roll Out                </p>
+              </div>
+            </div>
+           </div>
+          </div>
+          </div>
+        </section>
        
 
         <section class="h-[1800px] overflow-hidden">
@@ -357,6 +1123,7 @@
               </div>
             </div>
           </div>
+
         </section>
       </div>
     </div>
