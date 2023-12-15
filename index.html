@@ -1,12 +1,1160 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,300;0,9..40,400;1,9..40,300;1,9..40,400&family=Montserrat:wght@100&family=Rethink+Sans&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Vite App</title>
   </head>
-  <body>
-    <section id="section-4" class="py-32 bg-white">
+
+
+  <body class="bg-gradient-to-r from-slate-100 via-gray-100 to-slate-100">
+    <div id="app">
+      <div class="">
+
+           <!-- section-2 -->
+           <section id="speakers" class="py-20 lg:px-10 px-5 md:px-14 container lg:mx-[60px] md:mx-[90px] mx-[50px]">
+            <!-- for clip-path design in person -->
+            <svg aria-hidden="true" width="0" height="0">
+              <defs>
+                <clipPath id="bg-person" clipPathUnits="objectBoundingBox">
+                  <path
+                    d="M0,0 h0.729 v0.129 h0.121 l-0.016,0.032 C0.815,0.198,0.843,0.243,0.885,0.243 H1 v0.757 H0.271 v-0.086 l-0.121,0.057 v-0.214 c0,-0.032,-0.026,-0.057,-0.057,-0.057 H0 V0"
+                  ></path>
+                </clipPath>
+                <clipPath id="bg-person2" clipPathUnits="objectBoundingBox">
+                  <path
+                    d="M1,1 H0.271 v-0.129 H0.15 l0.016,-0.032 C0.185,0.802,0.157,0.757,0.115,0.757 H0 V0 h0.729 v0.086 l0.121,-0.057 v0.214 c0,0.032,0.026,0.057,0.057,0.057 h0.093 v0.7"
+                  ></path>
+                </clipPath>
+                <clipPath id="bg-person3" clipPathUnits="objectBoundingBox">
+                  <path
+                    d="M1,0 H0.271 v0.129 H0.15 l0.016,0.032 C0.185,0.198,0.157,0.243,0.115,0.243 H0 v0.757 h0.729 v-0.086 l0.121,0.057 v-0.214 c0,-0.032,0.026,-0.057,0.057,-0.057 h0.093 V0"
+                  ></path>
+                </clipPath>
+              </defs>
+            </svg>
+  
+            <!-- text block -->
+            <div class="grid lg:grid-cols-4 md:grid-cols-1  relative">
+              <div class="col-span-2 mb-16 ">
+                <h2
+                  class="speakers-title font-display text-4xl font-semibold font-Rethink text-blue-600"
+                >
+                  Speakers
+                </h2>
+                <p
+                  class="leading-10 font-display text-blue-900 mt-4 font-sans font-thin text-2xl font-Monno"
+                >
+                  Learn from the experts on the cutting-edge of deception at the
+                  most sinister companies.
+                </p>
+              </div>
+              <div class=""></div>
+            </div>
+  
+            <!-- person first row in openingDay -->
+            <div class="grid lg:grid-cols-4 grid-cols-1 relative">
+              <div
+                class="  grid auto-cols-auto justify-center lg:justify-start gap-x-4 gap-y-6 whitespace-nowrap px-4 sm:px-0 lg:grid-flow-row lg:grid-cols-1 lg:text-left md:grid md:grid-cols-3 grid-flow-col sm:grid-cols-4 justify-items-center  "
+              >
+                <div class="flex sm:col-span-1 mb-10 lg:mb-0">
+                  <div class="relative md:pe-10 sm:pe-0">
+                    <div class="absolute border-e-2 h-60 top-2 hidden lg:block  "></div>
+                    <svg
+                      aria-hidden="true"
+                      viewBox="0 0 6 6"
+                      class="absolute left-[-2.5px] top-[0.5625rem] hidden h-1.5 w-1.5 overflow-visible lg:block fill-blue-600 stroke-blue-600"
+                    >
+                      <path
+                        d="M3 0L6 3L3 6L0 3Z"
+                        stroke-width="2"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="opening-day">
+                    <button class="text-blue-600 text-sm font-mono mb-2">
+                      Opening Day
+                    </button>
+                    <p class="text-blue-900 text-2xl font-bold">April 4</p>
+                  </div>
+                </div>
+  
+                <div class="flex sm:col-span-2 lg:mt-[-70px]">
+                  <div class="relative lg:pe-20 md:pe-10 sm:pe-0 ">
+                    <svg
+                      aria-hidden="true"
+                      viewBox="0 0 6 6"
+                      class="absolute left-[2.8rem] top-[0.5625rem] hidden h-1.5 w-1.5 overflow-visible lg:block fill-transparent stroke-slate-400"
+                    >
+                      <path
+                        d="M3 0L6 3L3 6L0 3Z"
+                        stroke-width="2"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="speacker-workshop">
+                    <button
+                      class="text-slate-500 text-sm sm:col-span-2 text-start font-mono mb-2"
+                    >
+                      Speakers & Workshops
+                    </button>
+                    <p class="text-blue-900 text-2xl font-bold lg:text-start text-center">April 5</p>
+                  </div>
+                </div>
+  
+                <div class="flex sm:col-span-1 lg:mt-[-70px]">
+                  <div class="relative md:pe-10 sm:pe-0">
+                    <svg
+                      aria-hidden="true"
+                      viewBox="0 0 6 6"
+                      class="absolute left-[-6px] top-[0.5625rem] hidden h-1.5 w-1.5 overflow-visible lg:block fill-slate-200 stroke-slate-400"
+                    >
+                      <path
+                        d="M3 0L6 3L3 6L0 3Z"
+                        stroke-width="2"
+                        stroke-linejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="interviews">
+                    <button class="text-slate-500 text-sm font-mono mb-2">
+                      Interviews
+                    </button>
+                    <p class="text-blue-900 text-2xl font-bold">April 6</p>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="lg:col-span-3 mb-16 sm:mb-10">
+                <div class="grid md:grid-cols-3 sm:grid-cols-1 gap-8 ">
+                  <div class="person-1">
+                    <div
+                      class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                    >
+                      <div
+                        class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                      ></div>
+                      <div
+                        class="absolute inset-0 bg-indigo-50"
+                        style="clip-path: url(#bg-person)"
+                      >
+                        <img
+                          class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                          src="./img/Steven McHail.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+  
+                    <h3 class="text-xl font-bold mt-8 text-slate-900">
+                      Steven McHail
+                    </h3>
+                    <p class="mt-1 text-base text-slate-500">
+                      Designer at Globex Corporation
+                    </p>
+                  </div>
+  
+                  <div class="person-2">
+                    <div
+                      class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                    >
+                      <div
+                        class="absolute bottom-6 left-0 right-4 top-0 rounded-3xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                      ></div>
+                      <div
+                        class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                        style="clip-path: url(#bg-person2)"
+                      >
+                        <img
+                          class="rounded-3xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                          src="./img/jaquelin-isch.webp"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <h3 class="text-xl font-bold mt-8 text-slate-900">
+                      Jaquelin Isch
+                    </h3>
+                    <p class="mt-1 text-base text-slate-500">
+                      UX Design at InGen
+                    </p>
+                  </div>
+  
+                  <div class="person-3">
+                    <div
+                      class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                    >
+                      <div
+                        class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                      ></div>
+                      <div
+                        class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                        style="clip-path: url(#bg-person3)"
+                      >
+                        <img
+                          class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                          src="./img/Dianne Guilianelli.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+  
+                    <h3 class="text-xl font-bold mt-8 text-slate-900">
+                      Dianne Guilianelli
+                    </h3>
+                    <p class="mt-1 text-base text-slate-500">
+                      General Manager at Initech
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <!-- second row person in openingDay -->
+            <div class="grid lg:grid-cols-4 grid-cols-1 relative ">
+              <div class=""></div>
+  
+              <div class="col-span-3">
+                <div class="grid md:grid-cols-3 sm:grid-cols-1 gap-8 ">
+                  <div class="person-4">
+                    <div
+                      class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                    >
+                      <div
+                        class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                      ></div>
+                      <div
+                        class="absolute inset-0 bg-indigo-50"
+                        style="clip-path: url(#bg-person)"
+                      >
+                        <img
+                          class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                          src="./img/Ronni Cantadore.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+  
+                    <h3 class="text-xl font-bold mt-8 text-slate-900">
+                      Ronni Cantadore
+                    </h3>
+                    <p class="mt-1 text-base text-slate-500">
+                      Design Engineer at Weyland-Yutani
+                    </p>
+                  </div>
+  
+                  <div class="person-2">
+                    <div
+                      class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                    >
+                      <div
+                        class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                      ></div>
+                      <div
+                        class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                        style="clip-path: url(#bg-person2)"
+                      >
+                        <img
+                          class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                          src="./img/Erhart Cockrin.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <h3 class="text-xl font-bold mt-8 text-slate-900">
+                      Erhart Cockrin
+                    </h3>
+                    <p class="mt-1 text-base text-slate-500">
+                      Product Lead at Cyberdyne Systems
+                    </p>
+                  </div>
+  
+                  <div class="person-3">
+                    <div
+                      class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                    >
+                      <div
+                        class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                      ></div>
+                      <div
+                        class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                        style="clip-path: url(#bg-person3)"
+                      >
+                        <img
+                          class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                          src="./img/Parker Johnson.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+  
+                    <h3 class="text-xl font-bold mt-8 text-slate-900">
+                      Parker Johnson
+                    </h3>
+                    <p class="mt-1 text-base text-slate-500">
+                      UI Designer at MomCorp
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <!-- speakers & workshops -->
+  
+            <div class="hidden">
+              <!-- person first row in speakers and workshops-->
+              <div class="grid grid-cols-4 md:grid-cols-1">
+                <div class="md:grid md:grid-cols-3">
+                  <div class="flex mb-10">
+                    <div class="relative pe-10 sm:hidden">
+                      <div class="absolute border-e-2 h-60 top-2"></div>
+                      <svg
+                        aria-hidden="true"
+                        viewBox="0 0 6 6"
+                        class="absolute left-[-0.5px] top-[0.5625rem] hidden h-1.5 w-1.5 overflow-visible lg:block fill-blue-600 stroke-blue-600"
+                      >
+                        <path
+                          d="M3 0L6 3L3 6L0 3Z"
+                          stroke-width="2"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="opening-day">
+                      <button class="text-blue-600 text-sm font-mono mb-2">
+                        Opening Day
+                      </button>
+                      <p class="text-blue-900 text-2xl font-bold">April 4</p>
+                    </div>
+                  </div>
+  
+                  <div class="flex mb-10">
+                    <div class="relative pe-10 sm:hidden">
+                      <svg
+                        aria-hidden="true"
+                        viewBox="0 0 6 6"
+                        class="absolute left-[-2px] top-[0.5625rem] hidden h-1.5 w-1.5 overflow-visible lg:block fill-slate-200 stroke-slate-400"
+                      >
+                        <path
+                          d="M3 0L6 3L3 6L0 3Z"
+                          stroke-width="2"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="speacker-workshop">
+                      <button
+                        class="text-slate-500 text-sm sm:col-span-2 text-start font-mono mb-2"
+                      >
+                        Speakers & Workshops
+                      </button>
+                      <p class="text-blue-900 text-2xl font-bold">April 5</p>
+                    </div>
+                  </div>
+  
+                  <div class="flex">
+                    <div class="relative pe-10 sm:hidden">
+                      <svg
+                        aria-hidden="true"
+                        viewBox="0 0 6 6"
+                        class="absolute left-[-2px] top-[0.5625rem] hidden h-1.5 w-1.5 overflow-visible lg:block fill-slate-200 stroke-slate-400"
+                      >
+                        <path
+                          d="M3 0L6 3L3 6L0 3Z"
+                          stroke-width="2"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="interviews">
+                      <button class="text-slate-500 text-sm font-mono mb-2">
+                        Interviews
+                      </button>
+                      <p class="text-blue-900 text-2xl font-bold">April 6</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-span-3 mb-16 sm:mb-10">
+                  <div class="grid grid-cols-3 gap-8 sm:grid-cols-1">
+                    <div class="person-1">
+                      <div
+                        class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                      >
+                        <div
+                          class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                        ></div>
+                        <div
+                          class="absolute inset-0 bg-indigo-50"
+                          style="clip-path: url(#bg-person)"
+                        >
+                          <img
+                            class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                            src="./img/damaris-kimura.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+  
+                      <h3 class="text-xl font-bold mt-8 text-slate-900">
+                        Damaris Kimura
+                      </h3>
+                      <p class="mt-1 text-base text-slate-500">
+                        Senior Engineer at OCP
+                      </p>
+                    </div>
+  
+                    <div class="person-2">
+                      <div
+                        class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                      >
+                        <div
+                          class="absolute bottom-6 left-0 right-4 top-0 rounded-3xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                        ></div>
+                        <div
+                          class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                          style="clip-path: url(#bg-person2)"
+                        >
+                          <img
+                            class="rounded-3xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                            src="./img/ibrahim-frasch.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <h3 class="text-xl font-bold mt-8 text-slate-900">
+                        Ibrahim Frasch
+                      </h3>
+                      <p class="mt-1 text-base text-slate-500">
+                        Programmer at Umbrella Corp
+                      </p>
+                    </div>
+  
+                    <div class="person-3">
+                      <div
+                        class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                      >
+                        <div
+                          class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                        ></div>
+                        <div
+                          class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                          style="clip-path: url(#bg-person3)"
+                        >
+                          <img
+                            class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                            src="./img/cathlene-burrage.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+  
+                      <h3 class="text-xl font-bold mt-8 text-slate-900">
+                        Cathlene Burrage
+                      </h3>
+                      <p class="mt-1 text-base text-slate-500">
+                        Frontend Developer at Buy n Large
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <!-- second row person -->
+              <div class="grid grid-cols-4 md:grid-cols-1">
+                <div class=""></div>
+  
+                <div class="col-span-3">
+                  <div class="grid grid-cols-3 gap-8 sm:grid-cols-1">
+                    <div class="person-4">
+                      <div
+                        class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                      >
+                        <div
+                          class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                        ></div>
+                        <div
+                          class="absolute inset-0 bg-indigo-50"
+                          style="clip-path: url(#bg-person)"
+                        >
+                          <img
+                            class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                            src="./img/rinaldo-beynon.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+  
+                      <h3 class="text-xl font-bold mt-8 text-slate-900">
+                        Rinaldo Beynon
+                      </h3>
+                      <p class="mt-1 text-base text-slate-500">
+                        Data Scientist at Rekall
+                      </p>
+                    </div>
+  
+                    <div class="person-2">
+                      <div
+                        class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                      >
+                        <div
+                          class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                        ></div>
+                        <div
+                          class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                          style="clip-path: url(#bg-person2)"
+                        >
+                          <img
+                            class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                            src="./img/waylon-hyden.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <h3 class="text-xl font-bold mt-8 text-slate-900">
+                        Waylon Hyden
+                      </h3>
+                      <p class="mt-1 text-base text-slate-500">
+                        DevOps at RDA Corporation
+                      </p>
+                    </div>
+  
+                    <div class="person-3">
+                      <div
+                        class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                      >
+                        <div
+                          class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                        ></div>
+                        <div
+                          class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                          style="clip-path: url(#bg-person3)"
+                        >
+                          <img
+                            class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                            src="./img/giordano-sagucio.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+  
+                      <h3 class="text-xl font-bold mt-8 text-slate-900">
+                        Giordano Sagucio
+                      </h3>
+                      <p class="mt-1 text-base text-slate-500">
+                        Game Developer at Soylent Corp
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <!-- Interviews -->
+            <div class="hidden">
+              <!-- person first row in speakers and workshops-->
+              <div class="grid grid-cols-4 md:grid-cols-1">
+                <div class="md:grid md:grid-cols-3">
+                  <div class="flex mb-10">
+                    <div class="relative pe-10 sm:hidden">
+                      <div class="absolute border-e-2 h-60 top-2"></div>
+                      <svg
+                        aria-hidden="true"
+                        viewBox="0 0 6 6"
+                        class="absolute left-[-0.5px] top-[0.5625rem] hidden h-1.5 w-1.5 overflow-visible lg:block fill-blue-600 stroke-blue-600"
+                      >
+                        <path
+                          d="M3 0L6 3L3 6L0 3Z"
+                          stroke-width="2"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="opening-day">
+                      <button class="text-blue-600 text-sm font-mono mb-2">
+                        Opening Day
+                      </button>
+                      <p class="text-blue-900 text-2xl font-bold">April 4</p>
+                    </div>
+                  </div>
+  
+                  <div class="flex mb-10">
+                    <div class="relative pe-10 sm:hidden">
+                      <svg
+                        aria-hidden="true"
+                        viewBox="0 0 6 6"
+                        class="absolute left-[-2px] top-[0.5625rem] hidden h-1.5 w-1.5 overflow-visible lg:block fill-slate-200 stroke-slate-400"
+                      >
+                        <path
+                          d="M3 0L6 3L3 6L0 3Z"
+                          stroke-width="2"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="speacker-workshop">
+                      <button
+                        class="text-slate-500 text-sm sm:col-span-2 text-start font-mono mb-2"
+                      >
+                        Speakers & Workshops
+                      </button>
+                      <p class="text-blue-900 text-2xl font-bold">April 5</p>
+                    </div>
+                  </div>
+  
+                  <div class="flex">
+                    <div class="relative pe-10 sm:hidden">
+                      <svg
+                        aria-hidden="true"
+                        viewBox="0 0 6 6"
+                        class="absolute left-[-2px] top-[0.5625rem] hidden h-1.5 w-1.5 overflow-visible lg:block fill-slate-200 stroke-slate-400"
+                      >
+                        <path
+                          d="M3 0L6 3L3 6L0 3Z"
+                          stroke-width="2"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="interviews">
+                      <button class="text-slate-500 text-sm font-mono mb-2">
+                        Interviews
+                      </button>
+                      <p class="text-blue-900 text-2xl font-bold">April 6</p>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-span-3 mb-16 sm:mb-10">
+                  <div class="grid grid-cols-3 gap-8 sm:grid-cols-1">
+                    <div class="person-1">
+                      <div
+                        class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                      >
+                        <div
+                          class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                        ></div>
+                        <div
+                          class="absolute inset-0 bg-indigo-50"
+                          style="clip-path: url(#bg-person)"
+                        >
+                          <img
+                            class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                            src="./img/andrew-greene.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+  
+                      <h3 class="text-xl font-bold mt-8 text-slate-900">
+                        Andrew Greene
+                      </h3>
+                      <p class="mt-1 text-base text-slate-500">
+                        Frontend Developer at Ultratech
+                      </p>
+                    </div>
+  
+                    <div class="person-2">
+                      <div
+                        class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                      >
+                        <div
+                          class="absolute bottom-6 left-0 right-4 top-0 rounded-3xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                        ></div>
+                        <div
+                          class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                          style="clip-path: url(#bg-person2)"
+                        >
+                          <img
+                            class="rounded-3xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                            src="./img/heather-terry.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <h3 class="text-xl font-bold mt-8 text-slate-900">
+                        Heather Terry
+                      </h3>
+                      <p class="mt-1 text-base text-slate-500">
+                        Backend Developer at Xanatos Enterprises
+                      </p>
+                    </div>
+  
+                    <div class="person-3">
+                      <div
+                        class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                      >
+                        <div
+                          class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                        ></div>
+                        <div
+                          class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                          style="clip-path: url(#bg-person3)"
+                        >
+                          <img
+                            class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                            src="./img/piers-wilkins.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+  
+                      <h3 class="text-xl font-bold mt-8 text-slate-900">
+                        Piers Wilkins
+                      </h3>
+                      <p class="mt-1 text-base text-slate-500">
+                        Full stack Developer at BiffCo
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <!-- second row person -->
+              <div class="grid grid-cols-4 md:grid-cols-1">
+                <div class=""></div>
+  
+                <div class="col-span-3">
+                  <div class="grid grid-cols-3 gap-8 sm:grid-cols-1">
+                    <div class="person-4">
+                      <div
+                        class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                      >
+                        <div
+                          class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                        ></div>
+                        <div
+                          class="absolute inset-0 bg-indigo-50"
+                          style="clip-path: url(#bg-person)"
+                        >
+                          <img
+                            class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                            src="./img/gordon-sanderson.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+  
+                      <h3 class="text-xl font-bold mt-8 text-slate-900">
+                        Gordon Sanderson
+                      </h3>
+                      <p class="mt-1 text-base text-slate-500">
+                        Mobile Developer at Cobra Industries
+                      </p>
+                    </div>
+  
+                    <div class="person-2">
+                      <div
+                        class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                      >
+                        <div
+                          class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                        ></div>
+                        <div
+                          class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                          style="clip-path: url(#bg-person2)"
+                        >
+                          <img
+                            class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                            src="./img/kimberly-parsons.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <h3 class="text-xl font-bold mt-8 text-slate-900">
+                        Kimberly Parsons
+                      </h3>
+                      <p class="mt-1 text-base text-slate-500">
+                        Game Developer at Tyrell Corporation
+                      </p>
+                    </div>
+  
+                    <div class="person-3">
+                      <div
+                        class="group relative h-[15.5rem] transform rounded-4xl overflow-hidden"
+                      >
+                        <div
+                          class="absolute bottom-6 left-0 right-4 top-0 rounded-4xl border transition duration-300 group-hover:scale-95 border-blue-300"
+                        ></div>
+                        <div
+                          class="absolute inset-0 bg-indigo-50 overflow-hidden"
+                          style="clip-path: url(#bg-person3)"
+                        >
+                          <img
+                            class="rounded-4xl w-full h-full object-cover inset-0 group-hover:scale-110 transition duration-300"
+                            src="./img/richard-astley.webp"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+  
+                      <h3 class="text-xl font-bold mt-8 text-slate-900">
+                        Richard Astley
+                      </h3>
+                      <p class="mt-1 text-base text-slate-500">CEO at Roll Out</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+         <section class="h-[1800px] overflow-hidden">
+      <div
+        class="grid grid-cols-12 container lg:mx-[60px] md:mx-[90px] mx-[50px]"
+      >
+        <div class="col-span-11 lg:col-span-8 lg:p-2 mt-16 me-6">
+          <h1
+            class="md:text-5xl text-4xl leading-tight font-medium font-DM text-blue-500"
+          >
+            Our three day schedule is jam-packed with brilliant, creative,
+            evil geniuses.
+          </h1>
+          <p class="md:text-2xl text-xl mt-6 text-blue-800 leading-9">
+            The worst people in our industry giving the best talks you’ve
+            ever seen. Nothing will be recorded and every attendee has to
+            sign an NDA to watch the talks.
+          </p>
+        </div>
+      </div>
+    
+      <div class="relative">
+        <div class="absolute inset-0 bg-indigo-50 overflow-hidden">
+          <img
+            src="./img/photo_2023-12-13_13-33-07.jpg"
+            alt=""
+            width="918"
+            height="1300"
+            class="top-0 left-full md:translate-x-[910px] lg:translate-x-[800px] translate-x-[400px]"
+          />
+          <div
+            class="absolute inset-x-0 bg-gradient-to-b from-white top-0 h-40"
+          ></div>
+          <div
+            class="absolute inset-x-0 bg-gradient-to-t from-white bottom-0 h-40"
+          ></div>
+        </div>
+        <div
+          class="flex flex-col md:grid md:grid-cols-12 sm:gap-8 lg:flex lg:flex-col"
+        >
+          <div
+            class="lg:grid lg:grid-cols-12 relative container lg:mx-[60px] md:mx-[90px] mx-[50px] lg:gap-20 mt-20 md:flex md:flex-col md:gap-10 grid grid-cols-12 col-span-4 gap-8"
+          >
+            <div class="lg:col-span-4 col-span-3">
+              <h1 class="text-2xl font-semibold mb-3 text-blue-900">
+                April 4
+              </h1>
+              <p class="text-blue-800">
+                The first day of the conference is focused on dark patterns
+                for ecommerce
+              </p>
+            </div>
+            <div class="lg:col-span-4 col-span-3">
+              <h1 class="text-2xl font-semibold mb-3 text-blue-900">
+                April 5
+              </h1>
+              <p class="text-blue-800">
+                Next we spend the day talking about deceiving people with
+                technology.
+              </p>
+            </div>
+            <div class="lg:col-span-4 col-span-3">
+              <h1 class="text-2xl lg:me-8 font-semibold mb-3 text-blue-900">
+                April 6
+              </h1>
+              <p class="text-blue-800">
+                We close out the event previewing new techniques that are
+                still in development.
+              </p>
+            </div>
+          </div>
+          <div
+            class="lg:grid col-span-5 justify-center lg:grid-cols-12 relative container lg:mx-[60px] md:mx-[90px] mx-[50px] lg:gap-20 mt-20 md:flex md:flex-col md:gap-5 grid grid-cols-12"
+          >
+            <div class="col-span-10 lg:col-span-4">
+              <div
+                class="flex gap-7 bg-opacity-30 py-14 flex-col bg-slate-100 shadow-xl text-center"
+              >
+                <div>
+                  <h1 class="text-lg text-blue-900 font-semibold mb-3">
+                    Steveng McHail
+                  </h1>
+                  <p class="text-blue-900 mb-1">Not so one-time payments</p>
+                  <span class="font-mono text-sm text-slate-500"
+                    >9:00 AM - 10:00 AM PST</span
+                  >
+                </div>
+                <hr class="mx-14" />
+                <div>
+                  <h1 class="text-lg mb-3 text-blue-900 font-semibold">
+                    Jaquelin Isch
+                  </h1>
+                  <p class="text-blue-900 mb-1">The finer print</p>
+                  <span class="font-mono text-sm text-slate-500"
+                    >10:00AM - 11:00AM PST</span
+                  >
+                </div>
+                <hr class="mx-14" />
+                <div>
+                  <h1 class="text-lg text-blue-900 font-semibold mb-3">
+                    Dianne Guilianelli
+                  </h1>
+                  <p class="text-blue-900 mb-1">Post-purchase blackmail</p>
+                  <span class="font-mono text-sm text-slate-500"
+                    >11:00AM - 12:00PM PST</span
+                  >
+                </div>
+                <hr class="mx-14" />
+                <div>
+                  <h1 class="text-lg mb-3 text-blue-900 font-semibold">
+                    Lunch
+                  </h1>
+    
+                  <span class="font-mono text-sm text-slate-500"
+                    >12:00PM - 1:00PM PST</span
+                  >
+                </div>
+                <hr class="mx-14" />
+                <div>
+                  
+    
+    
+    
+                  <h1 class="text-lg mb-3 text-blue-900 font-semibold">
+                    Ronni Cantadore
+                  </h1>
+                  <p class="text-blue-900 mb-1">  Buy or die</p>
+                  <span class="font-mono text-sm text-slate-500"
+                    >  1:00PM - 2:00PM PST</span
+                  >
+                </div>
+                <hr class="mx-14" />
+                <div>
+                 
+                 
+                  
+                 
+                  
+                 
+                  
+                  
+                  
+                  <h1 class="text-lg mb-3 text-blue-900 font-semibold">
+                    Erhart Cockrin
+                  </h1>
+                  <p class="text-blue-900 mb-1"> In-person cancellation</p>
+                  <span class="font-mono text-sm text-slate-500"
+                    > 2:00PM - 3:00PM PST</span
+                  >
+                </div>
+                <hr class="mx-14" />
+                <div>
+                  <h1 class="text-lg mb-3 text-blue-900 font-semibold">
+                    Parker Johnson
+                  </h1>
+                  <p class="text-blue-900 mb-1">The pay/cancel switcheroo</p>
+                  <span class="font-mono text-slate-500 text-sm"
+                    >9:00 AM - 10:00 AM PST</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="lg:col-span-4 lg:block hidden">
+              <div
+                class="flex gap-7 py-14 bg-opacity-30 flex-col bg-slate-100 shadow-xl text-center"
+              >
+                <div>
+                  <h1 class="text-lg mb-3 text-blue-900 font-semibold">
+                    Damaris Kimura
+                  </h1>
+                  <p class="text-blue-900 mb-1">
+                    The invisible card reader
+                  </p>
+                  <span class="font-mono text-slate-500 text-sm"
+                    >9:00AM - 10:00AM PST</span
+                  >
+                </div>
+                <hr class="mx-14" />
+                <div>
+                  <h1 class="text-lg mb-3 text-blue-900 font-semibold">
+                    Ibrahim Frasch
+                  </h1>
+                  <p class="text-blue-900 mb-1">Stealing fingerprints</p>
+                  <span class="font-mono text-slate-500 text-sm"
+                    >10:00AM - 11:00AM PST</span
+                  >
+                </div>
+                <hr class="mx-14" />
+                <div>
+                  <h1 class="text-lg mb-3 text-blue-900 font-semibold">
+                    Cathlene Burrage
+                  </h1>
+                  <p class="text-blue-900 mb-1">Voting machines</p>
+                  <span class="font-mono text-slate-500 text-sm">
+                    11:00AM - 12:00PM PST</span
+                  >
+                </div>
+                <hr class="mx-14" />
+                <div>
+                  <h1 class="text-lg mb-3 text-blue-900 font-semibold">
+                    Lunch
+                  </h1>
+    
+                  <span class="font-mono text-slate-500 text-sm"
+                    >12:00PM - 1:00PM PST</span
+                  >
+                </div>
+                <hr class="mx-14" />
+                <div>
+                  <h1 class="text-lg mb-3 text-blue-900 font-semibold">
+                    Rinaldo Beynon
+                  </h1>
+                  <p class="text-blue-900 mb-1">Blackhat SEO that works</p>
+                  <span class="font-mono text-slate-500 text-sm"
+                    >1:00PM - 2:00PM PST</span
+                  >
+                </div>
+                <hr class="mx-14" />
+                <div>
+                  <h1 class="text-lg mb-3 text-blue-900 font-semibold">
+                    Waylon Hyden
+                  </h1>
+                  <p class="text-blue-900 mb-1">
+                    Turning your audience into a botnet
+                  </p>
+                  <span class="font-mono text-slate-500 text-sm"
+                    >2:00PM - 3:00PM PST</span
+                  >
+                </div>
+                <hr class="mx-14" />
+                <div>
+                  <h1 class="text-lg mb-3 text-blue-900 font-semibold">
+                    Giordano Sagucio
+                  </h1>
+                  <p class="text-blue-900 mb-1">Fly phishing</p>
+                  <span class="font-mono text-slate-500 text-sm"
+                    >3:00PM - 4:00PM PST</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="lg:col-span-4 lg:block hidden">
+              <div
+                class="flex py-14 gap-7 me-8 bg-opacity-60 flex-col bg-slate-100 shadow-xl text-center"
+              >
+                <div>
+                  
+                 
+                  
+                 
+                  <h1 class="text-lg mb-3 text-blue-900 font-semibold">
+                    Andrew Greene
+                  </h1>
+                  <p class="text-blue-900 mb-1"> Neuralink dark patterns</p>
+                  <span class="font-mono text-slate-500 text-sm"
+                    > 9:00AM - 10:00AM PST</span
+                  >
+                </div>
+                <hr class="mx-14" />
+                <div>
+                 
+    
+    
+    
+                  <h1 class="text-lg mb-3 text-blue-900 font-semibold">
+                    Heather Terry
+                  </h1>
+                  <p class="text-blue-900 mb-1">DALL-E for passports</p>
+                  <span class="font-mono text-slate-500 text-sm"
+                    >10:00AM - 11:00AM PST</span
+                  >
+                </div>
+                <hr class="mx-14" />
+                <div>
+                 
+    
+    
+    
+                  <h1 class="text-lg mb-3 text-blue-900 font-semibold">
+                    Piers Wilkins
+                  </h1>
+                  <p class="text-blue-900 mb-1">Quantum password cracking</p>
+                  <span class="font-mono text-slate-500 text-sm"
+                    >11:00AM - 12:00PM PST</span
+                  >
+                </div>
+                <hr class="mx-14" />
+                <div>
+              
+    
+                  <h1 class="text-lg mb-3 text-blue-900 font-semibold">
+                    Lunch
+                  </h1>
+                  <span class="font-mono text-slate-500 text-sm"
+                    >12:00PM - 1:00PM PST</span
+                  >
+                </div>
+                <hr class="mx-14" />
+                <div>
+              
+    
+    
+    
+                  <h1 class="text-lg mb-3 text-blue-900 font-semibold">
+                    Gordon Sanderson
+                  </h1>
+                  <p class="text-blue-900 mb-1">SkyNet is coming</p>
+                  <span class="font-mono text-slate-500 text-sm"
+                    >1:00PM - 2:00PM PST</span
+                  >
+                </div>
+                <hr class="mx-14" />
+                <div>
+                  
+    
+    
+    
+                  <h1 class="text-lg mb-3 text-blue-900 font-semibold">
+                    Kimberly Parsons
+                  </h1>
+                  <p class="text-blue-900 mb-1">Dark patterns for the metaverse</p>
+                  <span class="font-mono text-slate-500 text-sm"
+                    >2:00PM - 3:00PM PST</span
+                  >
+                </div>
+                <hr class="mx-14" />
+                <div>
+              
+    
+    
+    
+                  <h1 class="text-lg mb-3 text-blue-900 font-semibold">
+                    Richard Astley
+                  </h1>
+                  <p class="text-blue-900 mb-1">Knowing the game and playing it</p>
+                  <span class="font-mono text-slate-500 text-sm"
+                    >3:00PM - 4:00PM PST</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
+    </section>
+          <section id="section-4" class="py-32 bg-white">
       <h2
         class="mx-auto max-w-2xl text-center 2xl:[word-spacing:0px] xl:[word-spacing:0px] lg:[word-spacing:0px] md:[word-spacing:0px] sm:[word-spacing:0px] [word-spacing:6px] font-sans text-4xl font-medium tracking-tighter text-blue-900 sm:text-5xl"
       >
@@ -159,6 +1307,14 @@
         </p>
       </div>
     </footer>
-    <script type="module" src="./main.js"></script>
+      </div>
+    </div>
+
+ 
+   
+    
+
+    <script type="module" src="/main.js"></script>
+
   </body>
 </html>
