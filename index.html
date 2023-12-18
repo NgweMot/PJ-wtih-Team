@@ -15,7 +15,7 @@
   </head>
 
 
-  <body class="bg-gradient-to-r from-slate-100 via-gray-100 to-slate-100">
+  <body class="">
     <div id="app">
       <div class="mx-auto container">
          <section id="heroSectin" class="">
@@ -88,37 +88,44 @@
           </header>
           <main>
             <div class="relative">
-              <div class="absolute ">
+              <div class="absolute inset-0 bg-indigo-50 overflow-hidden lg:inset-0 lg:bg-indigo-50">
                 <img
-                  class=" xl:w-[900px] xl:h-[1500px] md:-translate-x-[50%] md:-translate-y-[30%] lg:-translate-y-[15%] xl:-translate-x-[40%] xl:-translate-y-[20%] -translate-x-[60%] -translate-y-[35%]"
+                  class="xl:w-[900px] lg:w-screen md:-translate-x-[50%] md:-translate-y-[30%] lg:-translate-y-[15%] xl:-translate-x-[40%] xl:-translate-y-[20%] -translate-x-[60%] -translate-y-[35%]"
                   src="./img/hero-bg.jpg"
                   alt=""
                 />
+                <div
+                class="absolute inset-x-0 bg-gradient-to-b from-white top-0 h-40 lg:absolute"
+              ></div>
+              <div
+                class="absolute inset-x-0 bg-gradient-to-t from-white bottom-0 h-40 lg:absolute"
+              ></div>
               </div>
+
               <div class="relative">
                 <div class="mx-auto w-[300px] md:w-[600px] lg:w-[800px]">
                   <h1
-                    class="font-Roboto text-[45px] tracking-tight md:text-[75px] leading-[60px] pb-8 font-bold text-blue-700 md:pb-8 md:tracking-tight md:leading-[80px] md:pt-14 lg:pb-8 lg:text-[90px] xl:text-[90px] xl:tracking-tight lg:leading-tight xl:leading-tight"
+                    class="font-Roboto text-[45px] tracking-tight md:text-[75px] leading-[60px] pb-8 font-bold text-blue-700 md:pb-8 md:tracking-tight md:leading-[80px] md:pt-10 lg:pb-8 lg:text-[90px] xl:text-[90px] xl:tracking-tight lg:leading-tight xl:leading-tight"
                   >
                     A design conference for the dark side.
                   </h1>
-                  <p class="text-lg md:text-xl lg:text-2xl pb-5 font-Rethink">
+                  <p class="text-lg md:text-xl lg:text-2xl pb-5  text-blue-700 font-Rethink">
                     The next generation of web users are tech-savvy and
                     suspicious. They know how to use dev tools, they can detect
                     a phishing scam from a mile away, and they certainly aren’t
                     accepting any checks from Western Union.
                   </p>
-                  <p class="text-lg md:text-xl lg:text-2xl font-Rethink">
+                  <p class="text-lg md:text-xl lg:text-2xl  text-blue-700 font-Rethink">
                     At DeceptiConf you’ll learn about the latest dark patterns
                     being developed to trick even the smartest visitors, and
                     you’ll learn how to deploy them without ever being detected.
                   </p>
                   <div
-                    class="block md:hidden lg:hidden xl:hidden p-5 pe-10 align-middle text-center justify-center mt-3 mb-3"
+                    class="block md:hidden lg:hidden xl:hidden align-middle text-center justify-center mt-3 mb-3"
                   >
                     <a
                       href=""
-                      class="bg-blue-700 rounded-2xl whitespace-nowrap p-1 mx-auto text-white inline-block w-[300px] text-center"
+                      class="bg-blue-700 rounded-2xl whitespace-nowrap p-1 mx-auto text-white inline-block w-[330px] text-center"
                     >
                       Get Your Tickets
                     </a>
@@ -183,7 +190,7 @@
           </main>
         </section>
            <!-- section-2 -->
-           <section id="speakers" class="py-20 lg:px-10 px-5 md:px-14 container lg:mx-[60px] md:mx-[90px] mx-[50px]">
+           <section id="speakers" class="py-20 px-5 md:px-14  mx-[50px] lg:p-0 xl:p-0 lg:m-0 xl:m-0">
             <!-- for clip-path design in person -->
             <svg aria-hidden="true" width="0" height="0">
               <defs>
@@ -204,17 +211,16 @@
                 </clipPath>
               </defs>
             </svg>
-  
             <!-- text block -->
-            <div class="grid lg:grid-cols-4 md:grid-cols-1  relative">
-              <div class="col-span-2 mb-16 ">
+            <div class="grid lg:grid-cols-4 md:grid-cols-1 relative">
+              <div class="col-span-2 mb-16">
                 <h2
                   class="speakers-title font-display text-4xl font-semibold font-Rethink text-blue-600"
                 >
                   Speakers
                 </h2>
                 <p
-                  class="leading-10 font-display text-blue-900 mt-4 font-sans font-thin text-2xl font-Monno"
+                  class="leading-10 font-display text-blue-700 mt-4 font-Rethink font-thin text-xl font-Monno"
                 >
                   Learn from the experts on the cutting-edge of deception at the
                   most sinister companies.
@@ -224,7 +230,7 @@
             </div>
   
             <!-- person first row in openingDay -->
-            <div class="grid lg:grid-cols-4 grid-cols-1 relative">
+            <div class="grid lg:grid-cols-4 grid-cols-1 relative md:mx-0 md:px-0">
               <div
                 class="  grid auto-cols-auto justify-center lg:justify-start gap-x-4 gap-y-6 whitespace-nowrap px-4 sm:px-0 lg:grid-flow-row lg:grid-cols-1 lg:text-left md:grid md:grid-cols-3 grid-flow-col sm:grid-cols-4 justify-items-center  "
               >
@@ -298,7 +304,7 @@
                 </div>
               </div>
   
-              <div class="lg:col-span-3 mb-16 sm:mb-10">
+              <div class="lg:col-span-3 md:mb-10 mb-10">
                 <div class="grid md:grid-cols-3 sm:grid-cols-1 gap-8 ">
                   <div class="person-1">
                     <div
@@ -971,20 +977,20 @@
               </div>
             </div>
           </section>
-        <section class="h-[1800px] overflow-hidden">
+        <section class="overflow-hidden">
       <div
-        class="grid grid-cols-12 container lg:mx-[60px] md:mx-[90px] mx-[50px]"
+        class="grid grid-cols-12 md:mx-[90px] mx-[50px] lg:px-0 lg:mx-0 xl:px-0 xl:mx-0"
       >
-        <div class="col-span-11 lg:col-span-8 lg:p-2 mt-16 me-6">
+        <div class="col-span-11 lg:col-span-8 mt-16 me-6">
           <h1
-            class="md:text-5xl text-4xl leading-tight font-medium font-DM text-blue-500"
+            class="md:text-4xl text-4xl leading-tight font-semibold font-DM text-blue-500"
           >
             Our three day schedule is jam-packed with brilliant, creative,
             evil geniuses.
           </h1>
-          <p class="md:text-2xl text-xl mt-6 text-blue-800 leading-9">
+          <p class="md:text-lg text-base mt-6 text-blue-800 leading-9 lg:text-2xl">
             The worst people in our industry giving the best talks you’ve
-            ever seen. Nothing will be recorded and every attendee has to
+            ever seen. Nothing will be recorded and every attendee has <br> to
             sign an NDA to watch the talks.
           </p>
         </div>
@@ -1007,12 +1013,12 @@
           ></div>
         </div>
         <div
-          class="flex flex-col md:grid md:grid-cols-12 sm:gap-8 lg:flex lg:flex-col"
+          class="flex flex-col md:grid md:grid-cols-12 sm:gap-8 lg:flex lg:flex-col lg:px-0 xl:px-0 lg:mx-0 xl:mx-0"
         >
           <div
-            class="lg:grid lg:grid-cols-12 relative container lg:mx-[60px] md:mx-[90px] mx-[50px] lg:gap-20 mt-20 md:flex md:flex-col md:gap-10 grid grid-cols-12 col-span-4 gap-8"
+            class="lg:grid lg:grid-cols-12 relative lg:px-0 xl:px-0 lg:mx-0 xl:mx-0 mx-[50px] lg:gap-20 mt-20 md:flex md:flex-col md:col-span-6 md:gap-5 grid-cols-12 flex gap-8 over"
           >
-            <div class="lg:col-span-4 col-span-3">
+            <div class="lg:col-span-4 flex-col">
               <h1 class="text-2xl font-semibold mb-3 text-blue-900">
                 April 4
               </h1>
@@ -1021,7 +1027,7 @@
                 for ecommerce
               </p>
             </div>
-            <div class="lg:col-span-4 col-span-3">
+            <div class="lg:col-span-4 flex-col">
               <h1 class="text-2xl font-semibold mb-3 text-blue-900">
                 April 5
               </h1>
@@ -1030,7 +1036,7 @@
                 technology.
               </p>
             </div>
-            <div class="lg:col-span-4 col-span-3">
+            <div class="lg:col-span-4 flex-col">
               <h1 class="text-2xl lg:me-8 font-semibold mb-3 text-blue-900">
                 April 6
               </h1>
@@ -1041,7 +1047,7 @@
             </div>
           </div>
           <div
-            class="lg:grid col-span-5 justify-center lg:grid-cols-12 relative container lg:mx-[60px] md:mx-[90px] mx-[50px] lg:gap-20 mt-20 md:flex md:flex-col md:gap-5 grid grid-cols-12"
+            class="lg:grid col-span-5 justify-center lg:grid-cols-12 lg:px-0 xl:px-0 lg:mx-0 xl:mx-0 relative  mx-[50px] lg:gap-10 lg:justify-between mt-20 md:col-span-6 md:flex md:flex-col  grid grid-cols-12"
           >
             <div class="col-span-10 lg:col-span-4">
               <div
@@ -1313,14 +1319,10 @@
           </div>
         </div>
       </div>
-    
-    
-    </section>
-    
-    </section>
-          <section id="section-4" class="py-32 bg-white">
+      </section>
+      <section id="section-4" class="py-32 bg-white">
       <h2
-        class="mx-auto max-w-2xl text-center 2xl:[word-spacing:0px] xl:[word-spacing:0px] lg:[word-spacing:0px] md:[word-spacing:0px] sm:[word-spacing:0px] [word-spacing:6px] font-sans text-4xl font-medium tracking-tighter text-blue-900 sm:text-5xl"
+        class="mx-auto max-w-2xl text-center 2xl:[word-spacing:0px] xl:[word-spacing:0px] lg:[word-spacing:0px] md:[word-spacing:0px] sm:[word-spacing:0px] [word-spacing:6px] font-sans text-[40px] font-medium tracking-tighter text-blue-900 sm:text-5xl"
       >
         Current sponsorships for our workshops and speakers.
       </h2>
@@ -1348,9 +1350,9 @@
       </div>
     </section>
     <section id="section-5">
-      <div class="mx-auto max-w-7xl lg:px-8 md:px-6 px-0 xl:px-10">
+      <div class="lg:px-0 xl:px-0 lg:mx-0 xl:mx-0 md:px-6 px-0 lg:mt-4 ">
         <div
-          class="overflow-hidden z-[-2] bg-indigo-50 xl:px-20 lg:px-44 md:px-16 px-8 py-20 xl:py-36 md:rounded-4xl relative"
+          class="overflow-hidden z-[-2] bg-indigo-50 xl:px-20 lg:px-44 md:px-16 px-8 py-20 xl:py-36 md:rounded-4xl relative lg:rounded-4xl "
         >
           <img
             alt=""
@@ -1362,11 +1364,11 @@
           />
 
           <div
-            class="mx-auto xl:mx-1 mx-24 grid-cols-2 lg:grid-cols-1 xl:flex flex-none gap-x-32"
+            class="xl:mx-1 grid-cols-2 lg:grid-cols-1 xl:flex flex-none gap-x-32 mx-0 px-0"
           >
             <div class="z-[100]">
               <p
-                class="font-displ text-4xl font-medium tracking-tighter text-blue-900 sm:text-5xl"
+                class="font-display text-[30px] font-medium tracking-tighter text-blue-900"
               >
                 Stay up to date
               </p>
